@@ -11,7 +11,7 @@ build-test: ["jbuilder" "runtest" "-p" name "-j" jobs]
 install: ["jbuilder" "install" "-p" name "-j" jobs]
 
 depends: [
-  "jbuilder" {>="1.0+beta13"}
+  "jbuilder" {>="1.0+beta13" & build}
   "core"   {>= "0.9.0"}
   "findlib"
 ]
