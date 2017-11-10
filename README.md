@@ -7,6 +7,7 @@ Simply execute `make test` to build, install, and run. Or, if you prefer to do t
 1. `make build` to build the package
 2. `make install` to install the package using `opam`, OCaml's package manager
 3. `ocaml-python` to execute the OCaml binary
+
 To uninstall, execute `make uninstall`.
 
 ## Dependencies
@@ -19,6 +20,7 @@ At a minimum, the package requires:
 Additionally, the following OCaml packages must be installed through `opam`:
 * **ocamlfind**, to locate the Python script at runtime
 * **core**, Jane Street's de facto standard library for OCaml
+
 With `opam` installed, acquiring these packages is as easy as excecuting `opam install ocamlfind core` 
 
 ### OS
