@@ -1,0 +1,10 @@
+(jbuild_version 1)
+
+(executable
+ ((name        main)
+  (public_name ocaml-python)
+  (libraries (
+    core
+    findlib
+  ))
+))
