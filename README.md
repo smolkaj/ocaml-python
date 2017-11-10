@@ -1,6 +1,10 @@
 # ocaml-python: Using Python scripts from OCaml
 
-This is a minimal skeleton demonstrating how to invoke Python scripts from OCaml. 
+This is a minimal skeleton demonstrating how to invoke Python scripts from OCaml, using Unix pipes for communication.
+
+This is a lightweight solution that gets you started right away and gives you full control, but does not handle any details of communicating values between Python and OCaml for you. Depending on your use case, it may be more appropriate to use one of these libraries:
+* **pyml** provides Python bindings, allowing to run Python code right inside the OCaml process
+* **lymp** runs Python in a seperate process, but provides an API for excecuting python functions and converting values back and forth between OCaml and Python
 
 ## Build & Run
 Simply execute `make test` to build, install, and run. Or, if you prefer to do things step by step:
