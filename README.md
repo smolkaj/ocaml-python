@@ -21,6 +21,8 @@ At a minimum, the package requires:
 * **[opam](https://opam.ocaml.org/)**, OCaml's package manager
 * **[jbuilder](https://github.com/janestreet/jbuilder)**, an OCaml build tool
 
+Using Python 2 or an older OCaml version should be straightforward, but hasn't been tested.
+
 Additionally, the following OCaml packages must be installed through `opam`:
 * **ocamlfind**, to locate the Python script at runtime
 * **core**, Jane Street's de facto standard library for OCaml
