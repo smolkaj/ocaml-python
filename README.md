@@ -30,4 +30,4 @@ Additionally, the following OCaml packages must be installed through `opam`:
 With `opam` installed, acquiring these packages is as easy as excecuting `opam install ocamlfind core` 
 
 ### OS
-The package has been tested with Ubuntu and MacOS and should work on all Unix systems.
+The package has been tested with Ubuntu and MacOS and should work on all Unix systems. Adding support for Windows should not be difficult. Pull request are welcomed.
